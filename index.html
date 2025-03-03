@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link href="resources/ol-geocoder.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title>Chantier Ecole M2 MOSAE 2024/2025 - PNR Normandie-Maine</title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="resources/ol-geocoder.js"></script>
+        <script src="layers/economie_epciNombretotaldesalaristousdomaines_2.js"></script><script src="layers/economie_communeNombretotaldesalaristousdomaines_3.js"></script><script src="layers/zone_d_interet_4.js"></script><script src="layers/circuits_rando_5.js"></script><script src="layers/arrete_de_biotope_6.js"></script><script src="layers/zps_7.js"></script><script src="layers/znieff_type2_8.js"></script><script src="layers/zone_natura_2000_9.js"></script><script src="layers/sic_10.js"></script><script src="layers/plan_gest_11.js"></script><script src="layers/ibp_12.js"></script><script src="layers/corridor_ecologique_cours_eau_13.js"></script><script src="layers/foret_pnr_regroupe_14.js"></script><script src="layers/faun_flor_15.js"></script><script src="layers/chiros_publique_privee_16.js"></script><script src="layers/sols_dominants_pnr_17.js"></script><script src="layers/essence_foret_regroupe_18.js"></script><script src="layers/limite_pnr_20.js"></script>
+        <script src="styles/economie_epciNombretotaldesalaristousdomaines_2_style.js"></script><script src="styles/economie_communeNombretotaldesalaristousdomaines_3_style.js"></script><script src="styles/zone_d_interet_4_style.js"></script><script src="styles/circuits_rando_5_style.js"></script><script src="styles/arrete_de_biotope_6_style.js"></script><script src="styles/zps_7_style.js"></script><script src="styles/znieff_type2_8_style.js"></script><script src="styles/zone_natura_2000_9_style.js"></script><script src="styles/sic_10_style.js"></script><script src="styles/plan_gest_11_style.js"></script><script src="styles/ibp_12_style.js"></script><script src="styles/corridor_ecologique_cours_eau_13_style.js"></script><script src="styles/foret_pnr_regroupe_14_style.js"></script><script src="styles/faun_flor_15_style.js"></script><script src="styles/chiros_publique_privee_16_style.js"></script><script src="styles/sols_dominants_pnr_17_style.js"></script><script src="styles/essence_foret_regroupe_18_style.js"></script><script src="styles/limite_pnr_20_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
